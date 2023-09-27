@@ -54,7 +54,7 @@ services:
       - UMASK=002 
       - WEBUI_PORT_ENV=8080
       - INCOMING_PORT_ENV=8999
-      - VPN_ENABLED=yes
+      - VPN_ENABLED=no
       - LAN_NETWORK=192.168.1.0/24 #adjust this to YOUR network settings
       - NAME_SERVERS=8.8.8.8,1.1.1.1 #you can use whatever DNS provider you want
     ports:
