@@ -18,7 +18,7 @@ services:
     environment:
       - TZ=Europe/London
       - PLEX_CLAIM=   # claim code from https://www.plex.tv/claim/
-      - ADVERTISE_IP=http://192.168.1.245:32400/
+      - ADVERTISE_IP=http://192.168.1.177:32400/
     hostname: plexserver
     volumes:
       - /Configs/plex/database:/config
